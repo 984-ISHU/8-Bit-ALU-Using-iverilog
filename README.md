@@ -17,3 +17,12 @@ It also consits of a dump.vcd file to visualize the output.
 
 *The addition and subtraction operations are performed using Full Adder Module.*
 *The left and right shift operations could be done using a Barrel Shifter Module, but is done usinsg the '<<' and '>>' operators due to time constraint.*
+
+ ## Software Used
+ + iVerilog
+ + GTKWave
+
+ ## Execution commands
+ 1. iverilog -o aout alu.v tb_alu.v
+ 2. vvp aout
+ 3. gtkwave dump.vcd
