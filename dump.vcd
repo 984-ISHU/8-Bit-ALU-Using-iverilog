@@ -1,0 +1,381 @@
+$date
+	Fri Nov 24 09:48:17 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module alu_tb $end
+$var wire 8 ! result [7:0] $end
+$var reg 8 " OperandA [7:0] $end
+$var reg 8 # OperandB [7:0] $end
+$var reg 3 $ opcode [2:0] $end
+$var integer 32 % i [31:0] $end
+$scope module uut $end
+$var wire 8 & OperandA [7:0] $end
+$var wire 8 ' OperandB [7:0] $end
+$var wire 3 ( opcode [2:0] $end
+$var wire 8 ) xor_result [7:0] $end
+$var wire 8 * sub_sum [7:0] $end
+$var wire 1 + sub_cout $end
+$var wire 8 , or_result [7:0] $end
+$var wire 8 - nand_result [7:0] $end
+$var wire 8 . lrs_result [7:0] $end
+$var wire 8 / lls_result [7:0] $end
+$var wire 8 0 and_result [7:0] $end
+$var wire 8 1 adder_sum [7:0] $end
+$var wire 1 2 adder_cout $end
+$var reg 8 3 result [7:0] $end
+$scope module adder_inst $end
+$var wire 8 4 a [7:0] $end
+$var wire 8 5 b [7:0] $end
+$var wire 1 6 cin $end
+$var wire 1 2 cout $end
+$var wire 8 7 s [7:0] $end
+$var wire 8 8 carry [8:1] $end
+$var wire 8 9 bin [7:0] $end
+$scope module FA0 $end
+$var wire 1 : ain $end
+$var wire 1 ; bin $end
+$var wire 1 6 cin $end
+$var wire 1 < cout $end
+$var wire 1 = sum $end
+$upscope $end
+$scope module FA1 $end
+$var wire 1 > ain $end
+$var wire 1 ? bin $end
+$var wire 1 @ cin $end
+$var wire 1 A cout $end
+$var wire 1 B sum $end
+$upscope $end
+$scope module FA2 $end
+$var wire 1 C ain $end
+$var wire 1 D bin $end
+$var wire 1 E cin $end
+$var wire 1 F cout $end
+$var wire 1 G sum $end
+$upscope $end
+$scope module FA3 $end
+$var wire 1 H ain $end
+$var wire 1 I bin $end
+$var wire 1 J cin $end
+$var wire 1 K cout $end
+$var wire 1 L sum $end
+$upscope $end
+$scope module FA4 $end
+$var wire 1 M ain $end
+$var wire 1 N bin $end
+$var wire 1 O cin $end
+$var wire 1 P cout $end
+$var wire 1 Q sum $end
+$upscope $end
+$scope module FA5 $end
+$var wire 1 R ain $end
+$var wire 1 S bin $end
+$var wire 1 T cin $end
+$var wire 1 U cout $end
+$var wire 1 V sum $end
+$upscope $end
+$scope module FA6 $end
+$var wire 1 W ain $end
+$var wire 1 X bin $end
+$var wire 1 Y cin $end
+$var wire 1 Z cout $end
+$var wire 1 [ sum $end
+$upscope $end
+$scope module FA7 $end
+$var wire 1 \ ain $end
+$var wire 1 ] bin $end
+$var wire 1 ^ cin $end
+$var wire 1 _ cout $end
+$var wire 1 ` sum $end
+$upscope $end
+$upscope $end
+$scope module and_inst $end
+$var wire 8 a i0 [7:0] $end
+$var wire 8 b i1 [7:0] $end
+$var wire 8 c o [7:0] $end
+$upscope $end
+$scope module lls_inst $end
+$var wire 8 d i0 [7:0] $end
+$var wire 8 e o [7:0] $end
+$upscope $end
+$scope module lrs_inst $end
+$var wire 8 f i0 [7:0] $end
+$var wire 8 g o [7:0] $end
+$upscope $end
+$scope module nand_inst $end
+$var wire 8 h i0 [7:0] $end
+$var wire 8 i i1 [7:0] $end
+$var wire 8 j t [7:0] $end
+$var wire 8 k o [7:0] $end
+$scope module and2_0 $end
+$var wire 8 l i0 [7:0] $end
+$var wire 8 m i1 [7:0] $end
+$var wire 8 n o [7:0] $end
+$upscope $end
+$scope module invert_0 $end
+$var wire 8 o i [7:0] $end
+$var wire 8 p o [7:0] $end
+$upscope $end
+$upscope $end
+$scope module or_inst $end
+$var wire 8 q i0 [7:0] $end
+$var wire 8 r i1 [7:0] $end
+$var wire 8 s o [7:0] $end
+$upscope $end
+$scope module sub_inst $end
+$var wire 8 t a [7:0] $end
+$var wire 8 u b [7:0] $end
+$var wire 1 v cin $end
+$var wire 1 + cout $end
+$var wire 8 w s [7:0] $end
+$var wire 8 x carry [8:1] $end
+$var wire 8 y bin [7:0] $end
+$scope module FA0 $end
+$var wire 1 z ain $end
+$var wire 1 { bin $end
+$var wire 1 v cin $end
+$var wire 1 | cout $end
+$var wire 1 } sum $end
+$upscope $end
+$scope module FA1 $end
+$var wire 1 ~ ain $end
+$var wire 1 !" bin $end
+$var wire 1 "" cin $end
+$var wire 1 #" cout $end
+$var wire 1 $" sum $end
+$upscope $end
+$scope module FA2 $end
+$var wire 1 %" ain $end
+$var wire 1 &" bin $end
+$var wire 1 '" cin $end
+$var wire 1 (" cout $end
+$var wire 1 )" sum $end
+$upscope $end
+$scope module FA3 $end
+$var wire 1 *" ain $end
+$var wire 1 +" bin $end
+$var wire 1 ," cin $end
+$var wire 1 -" cout $end
+$var wire 1 ." sum $end
+$upscope $end
+$scope module FA4 $end
+$var wire 1 /" ain $end
+$var wire 1 0" bin $end
+$var wire 1 1" cin $end
+$var wire 1 2" cout $end
+$var wire 1 3" sum $end
+$upscope $end
+$scope module FA5 $end
+$var wire 1 4" ain $end
+$var wire 1 5" bin $end
+$var wire 1 6" cin $end
+$var wire 1 7" cout $end
+$var wire 1 8" sum $end
+$upscope $end
+$scope module FA6 $end
+$var wire 1 9" ain $end
+$var wire 1 :" bin $end
+$var wire 1 ;" cin $end
+$var wire 1 <" cout $end
+$var wire 1 =" sum $end
+$upscope $end
+$scope module FA7 $end
+$var wire 1 >" ain $end
+$var wire 1 ?" bin $end
+$var wire 1 @" cin $end
+$var wire 1 A" cout $end
+$var wire 1 B" sum $end
+$upscope $end
+$upscope $end
+$scope module xor_inst $end
+$var wire 8 C" i0 [7:0] $end
+$var wire 8 D" i1 [7:0] $end
+$var wire 8 E" o [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b111000 E"
+b1010 D"
+b110010 C"
+0B"
+1A"
+1@"
+1?"
+0>"
+0="
+1<"
+1;"
+1:"
+09"
+18"
+17"
+16"
+15"
+14"
+03"
+12"
+01"
+10"
+1/"
+1."
+0-"
+1,"
+0+"
+0*"
+0)"
+1("
+1'"
+1&"
+0%"
+0$"
+1#"
+1""
+0!"
+1~
+0}
+1|
+1{
+0z
+b11110101 y
+b11110111 x
+b101000 w
+1v
+b1010 u
+b110010 t
+b111010 s
+b1010 r
+b110010 q
+b11111101 p
+b10 o
+b10 n
+b1010 m
+b110010 l
+b11111101 k
+b10 j
+b1010 i
+b110010 h
+b11001 g
+b110010 f
+b1100100 e
+b110010 d
+b10 c
+b1010 b
+b110010 a
+0`
+0_
+0^
+0]
+0\
+0[
+0Z
+0Y
+0X
+0W
+1V
+0U
+0T
+0S
+1R
+1Q
+0P
+0O
+0N
+1M
+1L
+0K
+0J
+1I
+0H
+1G
+0F
+1E
+0D
+0C
+0B
+1A
+0@
+1?
+1>
+0=
+0<
+0;
+0:
+b1010 9
+b10 8
+b111100 7
+06
+b1010 5
+b110010 4
+b111100 3
+02
+b111100 1
+b10 0
+b1100100 /
+b11001 .
+b11111101 -
+b111010 ,
+0+
+b101000 *
+b111000 )
+b0 (
+b1010 '
+b110010 &
+b1 %
+b0 $
+b1010 #
+b110010 "
+b111100 !
+$end
+#10
+b101000 !
+b101000 3
+b10 %
+b1 $
+b1 (
+#20
+b1100100 !
+b1100100 3
+b11 %
+b10 $
+b10 (
+#30
+b11001 !
+b11001 3
+b100 %
+b11 $
+b11 (
+#40
+b10 !
+b10 3
+b101 %
+b100 $
+b100 (
+#50
+b111010 !
+b111010 3
+b110 %
+b101 $
+b101 (
+#60
+b111000 !
+b111000 3
+b111 %
+b110 $
+b110 (
+#70
+b11111101 !
+b11111101 3
+b1000 %
+b111 $
+b111 (
+#80
